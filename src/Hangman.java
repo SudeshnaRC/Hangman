@@ -16,7 +16,7 @@ public class Hangman{
     int wrongTry;
 
     public String blankWordGenerator() throws FileNotFoundException {
-        File wordFile = new File("/Users/44751/Desktop/words_alpha.txt");
+        File wordFile = new File("/Path/of/downloaded/wordFile/words_alpha.txt");
         //Save words_alpha file, switch string argument passed to File() with path on your computer
 
         Scanner scan = new Scanner(wordFile);
